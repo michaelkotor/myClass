@@ -21,11 +21,18 @@ body {
 	animation-duration: 0.5s;
 	animation-iteration-count: 1;
 	background-color: #515151;
+	color: white;
 }
 
 @keyframes change {
-  from {background-color: #8F8F8F;}
-  to {background-color: #515151;}
+  from {
+  	background-color: #8F8F8F;
+  	color: black;
+  }
+  to {
+  	background-color: #515151;
+  	color: white;
+  }
 }
 
 
