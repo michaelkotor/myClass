@@ -1,0 +1,79 @@
+body {
+	background-color: #E8E8E8!important;
+}
+
+.container .row .m-block img {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+
+.container .row .m-block {
+	box-shadow: 0 0 20px black;
+	margin: 30px 0;
+	background-color: #8F8F8F;
+	height: 550px;
+	padding: 20px;
+}
+
+.container .row .m-block:hover {
+	animation-name: change;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	background-color: #515151;
+}
+
+@keyframes change {
+  from {background-color: #8F8F8F;}
+  to {background-color: #515151;}
+}
+
+
+.container .row .m-block h4 {
+	padding: 10px;
+}
+
+div.container div.row:first-child { background-color: black; }
+
+.container .nav {
+	color: white;
+	height: 50px;
+}
+
+.container .nav a:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.container .nav .col-md-8 {
+	align-self: center;
+}
+
+.container .nav .col-md-1 {
+	align-self: center;
+}
+
+.container .news {
+	height: 100px;
+	background-color: #A9A9A9;
+}
+
+.container .news .col-lg-12 {
+	align-self: center;
+}
+
+.container .footer {
+	height: 80px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+.container .footer p {
+	padding-top: 0px;
+	font-size: 50px;
+}
+
+.contaniner {
+
+}
